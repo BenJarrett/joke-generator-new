@@ -33,7 +33,7 @@ function App() {
       <div>
         <Card
         className='jokeCard'
-        body style={{ backgroundColor: '#C2CAE8' }}>
+        body style={{ backgroundColor: '#fff' }}>
           <h2>Yall wanna hear a joke?!</h2>
           <p>{singleJoke.setup}</p>
           <p>{showPunchline && singleJoke.punchline}</p>
